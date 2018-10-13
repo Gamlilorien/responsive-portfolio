@@ -34,8 +34,8 @@
 /* Decided to simply resize the nav "logo" text rather then messing with hiding the right nav menu to show icon */
 @media only screen and (max-width: 524px) {
     #logo {
-        width: 180px;
-        font-size: 1.1em;
+        width: 30%;
+        font-size: 0.85em;
     }
 }
 
