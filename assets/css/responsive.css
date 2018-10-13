@@ -1,5 +1,26 @@
-@ media only screen and (max-width: 960px) {
-    body {
-        background-color: lightblue;
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 29%;
+    padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media only screen and (max-width: 600px) {
+    .column {
+        width: 95%;
+    }
+}
+
+/* Set main content areas, the title rows, and forms to all become full width at 960px wide or smaller */
+@media only screen and (max-width: 960px) {
+    div, input, .title {
+        width: 100%;
     }
 }
