@@ -152,7 +152,7 @@ section {
     margin: auto;
     background-color: #ffffff;
     /* TRBL */
-    margin: 38px 0px 38px 0px;
+    margin: 38px 0px 88px 0px;
     padding: 0px 22px 22px 22px;
     border: 1px solid #dddddd;
 }
@@ -256,4 +256,8 @@ input.button {
     transform: translate(-50%, -50%);
     padding-bottom: 20px;
     background-color: rgba(117, 253, 255, 0.95);
+    }
+
+.row {
+    margin: 10px 10px 0 -6px
     }
