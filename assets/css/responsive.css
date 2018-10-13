@@ -34,15 +34,15 @@
 /* Decided to simply resize the nav "logo" text rather then messing with hiding the right nav menu to show icon */
 @media only screen and (max-width: 524px) {
     #logo {
-        width: 30%;
-        font-size: 0.85em;
+        width: 25%;
+        font-size: 0.75em;
     }
 }
 
 /* Everything Else */
 /* Set main content areas, the title rows, and forms to all become full width at 960px wide or smaller */
 @media only screen and (max-width: 960px) {
-    div, input, .title {
+    div, input, .title, body {
         width: 100%;
     }
 }
