@@ -12,12 +12,12 @@
     clear: both;
 }
 
+/* Portfolio adjustments... */
 @media only screen and (max-width: 600px) {
     .column {
         width: 95%;
     }
 }
-
 @media only screen and (max-width: 600px) {
     .grid-label {
         width: 80%;
@@ -30,7 +30,16 @@
     }
 }
 
+/* Navigation menu adjustments */
+/* Decided to simply resize the nav "logo" text rather then messing with hiding the right nav menu to show icon */
+@media only screen and (max-width: 524px) {
+    #logo {
+        width: 200px;
+        font-size: 1.1em;
+    }
+}
 
+/* Everything Else */
 /* Set main content areas, the title rows, and forms to all become full width at 960px wide or smaller */
 @media only screen and (max-width: 960px) {
     div, input, .title {
